@@ -38,7 +38,7 @@ public class HBRecorder implements MyListener {
     private final Context context;
     private int resultCode;
     private boolean isAudioEnabled = true;
-    private boolean isVideoHDEnabled = true;
+    private boolean isVideoHDEnabled = false;
     private Activity activity;
     private String outputPath;
     private String fileName;

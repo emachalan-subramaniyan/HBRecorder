@@ -100,8 +100,8 @@ public class MainActivity extends AppCompatActivity implements HBRecorderListene
     private CheckBox recordAudioCheckBox;
 
     //Reference to checkboxes and radio buttons
-    boolean wasHDSelected = false;
-    boolean isAudioEnabled = false;
+    boolean wasHDSelected = true;
+    boolean isAudioEnabled = true;
 
     //Should custom settings be used
     Switch custom_settings_switch;
