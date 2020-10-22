@@ -37,7 +37,7 @@ public class HBRecorder implements MyListener {
     private int mScreenDensity;
     private final Context context;
     private int resultCode;
-    private boolean isAudioEnabled = true;
+    private boolean isAudioEnabled = false;
     private boolean isVideoHDEnabled = false;
     private Activity activity;
     private String outputPath;
@@ -52,9 +52,9 @@ public class HBRecorder implements MyListener {
     private byte[] byteArray;
     private String audioSource = "MIC";
     private String videoEncoder = "DEFAULT";
-    private boolean enableCustomSettings = false;
+    private boolean enableCustomSettings = true;
     private int videoFrameRate = 30;
-    private int videoBitrate = 40000000;
+    private int videoBitrate = 1000000;
     private String outputFormat = "DEFAULT";
     private int orientation;
     boolean wasOnErrorCalled = false;
